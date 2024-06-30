@@ -1,0 +1,156 @@
+* {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+html{
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+header {
+  background-color: #ffff;
+  color: #000000;
+  padding-left: 3em;
+  font-size: 0.8em;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em;
+}
+
+.upload-section {
+  background-color: #ffffff;
+  margin-top: 8vh;
+  padding: 1em;
+  border-radius: 2em;
+  border: 0.1em dashed #4E4FEB;
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.upload-section input[type="file"] {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background-color: white;
+}
+
+.upload-section input[type="file"]:hover {
+  background-color: #ffffff;
+}
+
+.drop-container {
+  position: relative;
+  display: flex;
+  gap: 0.6em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  padding: 1.5em;
+  border-radius: 1.5em;
+  color: #444;
+  cursor: pointer;
+  background: white;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.drop-container:hover {
+  background: #eee;
+  color: #222;
+}
+
+.drop-container:hover .drop-title {
+  color: #222;
+}
+
+.drop-title {
+  color: #444;
+  font-size: 1.15em;
+  font-weight: bold;
+  text-align: center;
+  transition: color .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 1.5em;
+  border: none;
+  background: #4E4FEB;
+  padding: 0.8em 1em;
+  border-radius: 1em;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #4141d7;
+}
+
+.drop-container.dragover {
+  background: #eee;
+  border-color: #111;
+}
+
+.drop-container.dragover .drop-title {
+  color: #222;
+}
+
+#upload-btn {
+  width: 11em;
+  height: auto;
+  font-size: 90%;
+  margin: 2em;
+  border: none;
+  background: #4E4FEB;
+  padding: 0.8em 1em;
+  border-radius: 1em;
+  color: #EFFFFD;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+#upload-btn:hover {
+  background: #4141d7;
+}
+
+.result-section {
+  padding: 3em;
+  width: 85vw;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2em;
+  border: 0.1em dashed #4E4FEB;
+  visibility: hidden;
+  margin-bottom: 2em;
+}
+
+#result-text {
+  font-size: 1.12em;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  margin: 0px;
+}
