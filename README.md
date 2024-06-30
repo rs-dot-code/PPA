@@ -4,7 +4,7 @@
 **Overview**
 -----------
 
-The Previous Paper Analyzer (PPA) is a web-based application that analyzes previous question papers and provides insights on the most frequently asked questions and most important questions. The application uses the Gemini 1.5 Pro AI model to analyze the question papers and generate a report in HTML format.
+The Previous Paper Analyzer (PPA) is a web based application that analyzes previous question papers and provides insights on the most frequently asked questions and most important questions. The application uses the Gemini 1.5 Pro AI model to analyze the question papers and generate a report in HTML format.
 
 **Features**
 ------------
