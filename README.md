@@ -50,10 +50,3 @@ The Previous Paper Analyzer (PPA) is a web-based application that analyzes previ
 * The Flask backend handles the file uploads, analyzes the question papers using the Gemini 1.5 Pro AI model, and generates the report in HTML format.
 * The JavaScript frontend handles the user interface and interacts with the Flask backend using AJAX requests.
 * The HTML templates are used to render the user interface and display the report.
-
-**Future Development**
----------------------
-
-* Improve the accuracy of the Gemini 1.5 Pro AI model by fine-tuning it on a larger dataset of question papers.
-* Add more features to the application, such as the ability to filter questions by topic or difficulty level.
-* Improve the user interface and user experience of the application.
